@@ -1,46 +1,24 @@
-# --- Envs (raíz y server) ---
-.env
-.env.development
-.env.production
-server/.env
+# dependencias
+node_modules/
 
-# --- Carpeta de archivos subidos del backend ---
-server/uploads/
-uploads/
+# Expo / RN
+.expo/
+.expo-shared/
+android/
+ios/
 
-# --- Logs y caches generales ---
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-.eslintcache
-.cache/
-.tmp/
-temp/
-tmp/
-
-# --- Cobertura / pruebas / builds comunes ---
-coverage/
-.nyc_output/
-out/
-lib/
+# builds / coverage
+dist/
 build/
-server/dist/
-server/build/
+coverage/
 
-# --- IDEs y SO ---
+# OS / editores
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
-*.iml
-Thumbs.db
 
-# --- Artefactos binarios de apps ---
-*.aab
-*.apk
-*.ipa
-
-# --- Expo / EAS extra ---
-.expo-shared/
-.easl
-.eas/
+# env / llaves
+.env
+*.keystore
+*.jks
